@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Nutrition</title>
+</head>
+<body>
+    <h1>
+        Food Nutrition Data
+    </h1>
+    <table id="foodTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Calories</th>
+                <th>Protein</th>
+                <th>Carbs</th>
+                <th>Fats</th>
+                <th>Sugar</th>
+                <th>Fiber</th>
+                <th>Origin</th>
+                <th>Cholesterol</th>
+                <th>Benefits</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    <script>
+        fetch('http://localhost:5000/getfooditems')
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log('data',data);
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML='';
+            // populate the inside tbody
+            data.forEach(food => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${food.name}</td>
+                    <td>${food.calories}</td>
+                    <td>${food.protein}</td>
+                    <td>${food.carbs}</td>
+                    <td>${food.fats}</td>
+                    <td>${food.sugar}</td>
+                    <td>${food.fiber}</td>
+                    <td>${food.origin}</td>
+                    <td>${food.cholesterol}</td>
+                    <td>${food.benefits}</td>
+                `
+                tableBody.appendChild(row);    
+            });
+        })
+        .catch((e)=>console.log(e))
+    </script>
+    
+</body>
+</html>

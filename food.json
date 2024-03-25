@@ -1,0 +1,76 @@
+{
+    "Items" : [
+        {
+            "name": "Strawberry",
+            "calories": 32,
+            "protein": 0.7,
+            "carbs": 7.7,
+            "fats": 0.3,
+            "sugar": 4.9,
+            "fiber": 2,
+            "origin": "Various regions including Europe, North America, and Asia",
+            "cholestrol": "None",
+            "benefits": "Strawberries are rich in antioxidants, vitamins, and fiber. They may help improve heart health, regulate blood sugar levels, and reduce inflammation."
+        },
+        {
+            "name": "Apple",
+            "calories": 52,
+            "protein": 0.3,
+            "carbs": 14,
+            "fats": 0.2,
+            "sugar": 10.4,
+            "fiber": 2.4,
+            "origin": "Various regions including North America, Europe, and Asia",
+            "cholestrol": "None",
+            "benefits": "Apples are rich in antioxidants, vitamins, and dietary fiber. They may help improve heart health, aid in digestion, and lower the risk of chronic diseases."
+        },
+        {
+            "name": "Banana",
+            "calories": 89,
+            "protein": 1.1,
+            "carbs": 22.8,
+            "fats": 0.3,
+            "sugar": 12.2,
+            "fiber": 2.6,
+            "origin": "Tropical regions, including Southeast Asia and Africa",
+            "cholestrol": "None",
+            "benefits": "Bananas are rich in potassium, vitamins, and antioxidants. They may help improve digestion, regulate blood pressure, and boost energy levels."
+        },
+        {
+            "name": "Grapes",
+            "calories": 69,
+            "protein": 0.7,
+            "carbs": 18,
+            "fats": 0.2,
+            "sugar": 15,
+            "fiber": 0.9,
+            "origin": "Various regions including Europe, North America, and Asia",
+            "cholesterol": "None",
+            "benefits": "Grapes are high in antioxidants, vitamins, and minerals. They may support heart health, improve immune function, and aid in digestion."
+        },
+        {
+            "name": "Orange",
+            "calories": 47,
+            "protein": 0.9,
+            "carbs": 12,
+            "fats": 0.1,
+            "sugar": 9.4,
+            "fiber": 2.4,
+            "origin": "Various regions including Florida, California, and Mediterranean countries",
+            "cholesterol": "None",
+            "benefits": "Oranges are rich in vitamin C, fiber, and antioxidants. They may boost immune function, support skin health, and aid in digestion."
+        },
+        {
+            "name": "Blueberry",
+            "calories": 57,
+            "protein": 0.7,
+            "carbs": 14,
+            "fats": 0.3,
+            "sugar": 10,
+            "fiber": 2.4,
+            "origin": "Various regions including North America and Europe",
+            "cholesterol": "None",
+            "benefits": "Blueberries are packed with antioxidants, vitamins, and fiber. They may improve brain function, promote heart health, and help regulate blood sugar levels."
+        }
+    ]
+}
